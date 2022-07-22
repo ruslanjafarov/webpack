@@ -13,6 +13,11 @@ module.exports = {
         clean: true,
     },
     devtool: "source-map",
+    devServer: {
+        port: 8888,
+        open: true,
+        watchFiles: ["./src/index.html"]
+    },
     plugins: [new MiniCssExtractPlugin({
         filename: "[name].[contenthash].css"
     }),new HtmlWebpackPlugin({template: "./src/index.html"})],
