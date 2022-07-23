@@ -4,6 +4,11 @@ Default config for Front-End. If u want create web-site with preprocessors (scss
 
 
 ## 🔥 How to use
-  > npm i
-  >> npm start
+```
+npm i
+  ```   
+```
+npm start
+  ```
+
   >>> npm run dev/build
