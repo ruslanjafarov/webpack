@@ -10,5 +10,7 @@ npm i
 ```
 npm start
   ```
+```
+npm run dev/build
+  ```
 
-  >>> npm run dev/build
