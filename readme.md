@@ -9,12 +9,12 @@ Default config for Front-End. If u want create web-site with preprocessors (scss
 ```
 npm i
   ```   
-***Downloading npm - dependencies
+***Downloading npm - dependencies***
 ```
 npm start
   ```
-***Opening your browser with hot reload function
+***Opening your browser with hot reload function***
 ```
 npm run dev/build
   ```
-***Dev - check result. Build - last result, which you send to the customer
+***Dev - check result. Build - last result, which you send to the customer***
