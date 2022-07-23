@@ -1,5 +1,5 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/83516044/180604128-20292ac0-3558-4b96-81c1-61c59341fa23.png" height="100"/></p>
-<h1 align="center">Webpack config</h1>
+<h1 align="center">❤Webpack config❤</h1>
 Default config for Front-End. If u want create web-site with preprocessors and hot reload, u can download my webpack, and star it.
 
 
