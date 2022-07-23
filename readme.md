@@ -17,4 +17,4 @@ npm start
 ```
 npm run dev/build
   ```
-**Dev - check result. Build - last result, which you send to the customer**
+**Dev - check result. Build - finite result, which you send to the customer**
