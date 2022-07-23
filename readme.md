@@ -5,16 +5,16 @@ Default config for Front-End. If u want create web-site with preprocessors (scss
 
 
 ## 🔥 How to use
->Before use, u need to open console(bash, powershell), and go to directory, where u put this config webpack
+>Before use, u need to open console (bash, powershell), and go to directory, where u put this config webpack.
 ```
 npm i
   ```   
-***Downloading npm - dependencies***
+**Downloading npm - dependencies**
 ```
 npm start
   ```
-***Opening your browser with hot reload function***
+**Opening your browser with hot reload function**
 ```
 npm run dev/build
   ```
-***Dev - check result. Build - last result, which you send to the customer***
+**Dev - check result. Build - last result, which you send to the customer**
