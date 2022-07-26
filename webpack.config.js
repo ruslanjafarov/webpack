@@ -10,13 +10,16 @@ module.exports = {
     output: {
         filename: "[name].[contenthash].js",
         assetModuleFilename: "assets/[hash][ext][query]",
-        clean: true,
     },
     devtool: "source-map",
     devServer: {
         port: 8888,
         open: true,
-        watchFiles: ["./src/index.html"]
+        hot: true,
+        static: {
+            directory: "./src",
+            watch: true
+        },
     },
     plugins: [new MiniCssExtractPlugin({
         filename: "[name].[contenthash].css"
@@ -63,9 +66,6 @@ module.exports = {
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader",
-                    options: {
-                        presets: ["@babel/preset-env"]
-                    },
                 },
             },
         ],
